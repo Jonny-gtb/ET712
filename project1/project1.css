@@ -33,3 +33,55 @@ nav ul li {
     display: inline;
     margin-right: 20px;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+h2, h3 {
+    color: #4CAF50;
+}
+
+#shapes-drawing, #math-equation {
+    text-align: center;
+    margin: 20px;
+}
+
+#shapes-canvas {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#math-feedback {
+    font-weight: bold;
+}
