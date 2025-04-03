@@ -5,25 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pre-K Learning Website</title>
     <link rel="stylesheet" href="project1.css">
+    <script src="project1.js"></script>
 </head>
 <body>
     <header>
         <h1>Welcome to Pre-K Learning!</h1>
-        <img src="Images/Children Learning.svg" alt="Childrens Learning" width="500">
+        <img src="Images/Children Learning.svg" alt="Children Learning" width="500">
         <img src="Images/Bookshelf.svg" alt="Reading Fundamentals" width="50">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#games">Learning Games</a></li>
                 <li><a href="#stories">Stories</a></li>
-                <li><a href="#Videos">Videos</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#shapes">Shapes & Math</a></li>
             </ul>
         </nav>
     </header>
+
     <section id="home">
         <h2>Fun and Educational Games</h2>
         <p>Explore fun games designed to help young learners develop essential skills in a playful and interactive way!</p>
     </section>
+
     <section id="games">
         <h2>Learning Games</h2>
         <p>Check out our collection of educational games, from puzzles to memory games!</p>
@@ -32,9 +36,33 @@
             <li>Number Counting Fun</li>
             <li>Coloring and Shapes Game</li>
             <li>Animal Sound Quiz</li>
-    <header> </header>
-        </section>
+        </ul>
+    </section>
+
+    <!-- New Shapes and Math Section -->
+    <section id="shapes">
+        <h2>Shapes and Math Fun!</h2>
+
+        <!-- Math Equation Section -->
+        <div id="math-equation">
+            <h3>Solve the Math Equation:</h3>
+            <p id="math-question"></p>
+            <input type="number" id="math-answer" placeholder="Your Answer">
+            <button onclick="checkMathAnswer()">Check Answer</button>
+            <p id="math-feedback"></p>
+        </div>
+
+        <!-- Shapes Drawing Section -->
+        <div id="shapes-drawing">
+            <h3>Draw a Shape:</h3>
+            <button onclick="drawCircle()">Draw a Circle</button>
+            <button onclick="drawSquare()">Draw a Square</button>
+            <canvas id="shapes-canvas" width="400" height="400"></canvas>
+        </div>
+    </section>
+
     <footer>
+        <!-- Footer content goes here -->
     </footer>
 </body>
 </html>
