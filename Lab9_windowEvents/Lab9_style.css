@@ -1,0 +1,12 @@
+*{box-sizing: border box;}
+img{width: 100%; display: block;}
+
+.displaypexels{
+    background-color: rgba(150, 150, 150, 0.6);
+    width: 100px;
+    padding: 1em;
+    font-size: 1,5em;
+    position:fixed;
+    top:0%;
+    right: 0%
+}
